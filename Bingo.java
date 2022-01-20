@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Arrays;
 
-public class BingoNew {
+public class Bingo {
 
     private static int[][] myArray = new int[5][5];
 
