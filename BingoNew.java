@@ -1,5 +1,3 @@
-package SortieralgorithmenArrays.Bingo;
-
 import java.security.SecureRandom;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -94,49 +92,3 @@ public class BingoNew {
 
         }
     }
-
-            /*
-            for(int col=0; col<1; col++) {
-                for (int row = 0; row < rows; row++) {
-                    if (row == 0) {
-                        myArray[row][col] = number;
-                    } else if(row == 1){
-                        myArray[row][col] = (number + 15 - 1) + 1;
-                    } else if(row == 2){
-                        myArray[row][col] = (number + 30 - 16) + 16;
-                    }
-                    else if(row == 3){
-                        myArray[row][col] = (number + 45 - 31) + 31;
-                    }else if(row == 4){
-                        myArray[row][col] = (number + 60 - 46) + 46;
-                    }
-                    System.out.print(myArray[row][col] + " ");
-                }
-                System.out.println();
-            }
-
-
-            it worked!!!!!!!
-            for(int col = 0; col < columns; col++) {
-            for (int row = 0; row < rows; row++) {
-                if (row == 0) {
-                    myArray[row][col] = Display(getRandomNumbersWithNoDuplicates(1,15));
-                } else if(row == 1){
-                    myArray[row][col] = Display(getRandomNumbersWithNoDuplicates(16,30));
-                } else if(row == 2){
-                    myArray[row][col] = Display(getRandomNumbersWithNoDuplicates(31,45));
-                } else if(row == 3){
-                    myArray[row][col] = Display(getRandomNumbersWithNoDuplicates(46,60));
-                }else if(row == 4){
-                    myArray[row][col] = Display(getRandomNumbersWithNoDuplicates(61,75));
-                }
-                System.out.print(" "+ myArray[row][col] + " ");
-            }
-            System.out.println();
-
-             */
-
-
-
-
-
